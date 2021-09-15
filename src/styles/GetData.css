@@ -1,0 +1,33 @@
+.topic{
+    margin: 30px 10px 10px 10px;
+  }
+  
+  .content{
+    margin: 10px;
+  }
+
+  .breadcrumbs{
+    border-radius: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  ol{
+    margin-bottom: 0rem !important;
+  }
+
+  .topic-button{
+    background-color: #eaeef2;
+    border-radius: 6px;
+    border: 1px solid rgba(27,31,36,0.15);
+    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+    color: #0969da;
+    font-weight: bold;
+  }
+
+  .topic-button:hover{
+    background-color: #0969da;
+    color: white;
+  }

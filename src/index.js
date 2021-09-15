@@ -10,6 +10,8 @@ import {
   ApolloProvider,
 } from "@apollo/client";
 
+console.log(process.env.REACT_APP_TOKEN);
+
 const client = new ApolloClient({
   uri: 'https://api.github.com/graphql',
   cache: new InMemoryCache(),
